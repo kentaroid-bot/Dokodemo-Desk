@@ -14,6 +14,47 @@ The revised onboarding flow and resuming work in a dedicated chat have been chec
 
 This is the English introduction and setup guide. The [Japanese README](README.md) is the source version; the template documents, UI, and linked guides are currently in Japanese.
 
+## How Dokodemo Desk is organized
+
+**Dokodemo Desk is your own directory where different AI agents can access the files, work on tasks, and create or edit deliverables.** An AI with read and write access takes on work by reading the shared rules, role definitions, and records.
+
+```mermaid
+flowchart TB
+    AI["AI agents<br/>Codex, OpenClaw, and other compatible environments"]
+    subgraph ROOT["Dokodemo Desk: your workspace (the whole directory)"]
+        direction TB
+        RULES["Shared rules and workspace purpose"]
+        TEAM["Workspace management team — extensible<br/>Souemon, Purpose Companion, UI role, and more"]
+        DESKS["Project desks — extensible<br/>Roles, procedures, and links to materials and deliverables"]
+        OUTPUTS["Project deliverables — extensible<br/>Writing, code, research materials, and more"]
+        RECORDS["Work records<br/>Progress, links to results, and next steps"]
+        MAP["Work Map (UI)"]
+        RULES --> TEAM
+        RULES --> DESKS
+        TEAM <-->|Coordinate| DESKS
+        DESKS -->|The assigned AI creates and edits| OUTPUTS
+        TEAM -->|Record work| RECORDS
+        DESKS -->|Record work| RECORDS
+        RECORDS -->|Read and display| MAP
+    end
+    AI <-->|Read and write according to rules and roles| ROOT
+```
+
+The management team supports the whole workspace; each desk handles its own project. Roles, records, and deliverables stay in the workspace, so another AI can pick up where the previous one left off. One AI can also take on several roles.
+
+Within the workspace as a whole, the `workspace/` folder holds the files used to organize the work. The current template uses this layout:
+
+| Content | Location |
+|---|---|
+| Shared rules and purpose | `workspace/constitution.md`, `workspace/rules.md`, `workspace/purpose.md` |
+| Management team roles | `workspace/agents/roles/` |
+| Project desks | `workspace/agents/desks/` |
+| Project deliverables and materials | Each project’s folder inside `projects/` |
+| Work records, daily reports, and shared boards | `workspace/operations/` |
+| The Work Map display program | `console/` |
+
+Add roles, desks, and deliverables as your work calls for them. A blank workspace includes Souemon and the UI role; the Purpose Companion is added during onboarding. The diagram shows how roles and files relate. It does not describe an automatic agent launcher or a mechanism for coordinating simultaneous edits to the same file.
+
 ## Think of it as a voyage on a small ship
 
 The roles in Dokodemo Desk are a little like the crew and tools aboard a small ship.
