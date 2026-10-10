@@ -10,7 +10,7 @@ You don’t need to know your destination from the start. Work together, notice 
 
 This is the **initial public release**, based on the v0.2 template. It includes a workspace generator, a local UI, and guides for getting started and resuming work, under the MIT License. It brings together improvements from the MVP and starts with an independent Git history on October 10, 2026.
 
-The revised onboarding flow and resuming work in a dedicated chat have been checked in an existing user’s Codex environment on macOS. Testing with new users and other AI environments is still ahead. See the [validation record](VALIDATION.md) for the scope of these checks.
+The revised onboarding flow and resuming work in a dedicated chat have been checked in an existing user’s Codex environment on macOS. We have also received an OpenClaw test report describing successful retrieval, workspace generation, HTML serving over HTTP, all 14 tests, and an onboarding exercise. Browser rendering and human visual checks in OpenClaw, and onboarding with new human users, remain unverified. See the [validation record](VALIDATION.md) for the scope of these checks.
 
 This is the English introduction and setup guide. The [Japanese README](README.md) is the source version; the template documents, UI, and linked guides are currently in Japanese.
 
@@ -58,7 +58,7 @@ The workspace’s `workspace/purpose.md` serves as the ship’s log for that jou
 
 **Start by getting the project from GitHub and working with an AI on your computer.** You don’t need to be comfortable with Git commands: you can give the repository URL to your AI and ask it to help you set up.
 
-You need an AI that can read and write the workspace folder, Python 3.9 or later, a browser for the local UI, and a place to keep the files so the AI can read them again next time. The initial trial used Codex on macOS. Environments such as Antigravity and Hermes are also intended candidates when they provide these capabilities; compatibility needs to be checked in each environment.
+You need an AI that can read and write the workspace folder, Python 3.9 or later, a browser for the local UI, and a place to keep the files so the AI can read them again next time. Alongside the initial Codex trial on macOS, technical checks and an onboarding exercise have been reported from OpenClaw on macOS 15.7.3 (Apple Silicon) with Python 3.9.6. Environments such as Antigravity and Hermes are also intended candidates when they provide these capabilities; compatibility needs to be checked in each environment.
 
 Setting up entirely through a cloud-only or phone-only chat is outside the current scope. Remote access to an already prepared workspace is a future area for testing. “Dokodemo” means “anywhere”: the aim is to let you carry your own purpose, roles, and records into a compatible environment and continue working.
 
