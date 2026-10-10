@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "id": "example-studio",
+      "name": "小さな制作室【架空例】",
+      "path": "projects/example-studio",
+      "owner": "quotation"
+    }
+  ]
+}

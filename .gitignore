@@ -1,0 +1,11 @@
+/.local/
+/DESK.md
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+/dist/
