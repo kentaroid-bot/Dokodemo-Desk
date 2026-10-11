@@ -2,6 +2,8 @@
 
 [日本語](README.md) | English
 
+[Website](https://dokodemodesk.monku.ai/) · [Guide](https://dokodemodesk.monku.ai/guide) · [FAQ](https://dokodemodesk.monku.ai/faq) (currently in Japanese)
+
 **A workspace that grows with you and your AI companions.**
 
 Dokodemo Desk brings your purpose, roles, and work records into a workspace you can carry with you. Start with Souemon, your guide to setting up the workspace and welcoming new companions as your work calls for them. Together, you shape how the team works and use a shared view to see its progress.
@@ -13,6 +15,16 @@ This is the **initial public release**, based on the v0.2 template. It includes 
 The revised onboarding flow and resuming work in a dedicated chat have been checked in an existing user’s Codex environment on macOS. We have also received an OpenClaw test report describing successful retrieval, workspace generation, HTML serving over HTTP, all 14 tests, and an onboarding exercise. Browser rendering and human visual checks in OpenClaw, and onboarding with new human users, remain unverified. See the [validation record](VALIDATION.md) for the scope of these checks.
 
 This is the English introduction and setup guide. The [Japanese README](README.md) is the source version; the template documents, UI, and linked guides are currently in Japanese.
+
+## A shared workspace directory that can grow with your work
+
+Think of an office with no permanent staff, but everything in place for work to continue.
+
+It holds the purpose and rules of the work, desks and roles, shelves for finished work, work logs, and messages and procedures for handing tasks over. Imagine an office where someone was working just yesterday.
+
+Your AI reads those materials, understands the goals and progress so far, and picks up the work from there. Dokodemo Desk brings that kind of workspace together in a folder on your computer.
+
+You can start with a small personal workspace and add roles, desks, and places to keep your work as your needs grow. That is what we mean by a workspace that is free to scale.
 
 ## Think of it as a voyage on a small ship
 
@@ -64,6 +76,18 @@ Setting up entirely through a cloud-only or phone-only chat is outside the curre
 
 A plugin is a possible future way to make the project easier to find and set up. It is not required to use the project, and does not imply availability in every chat app or an official quality endorsement.
 
+## Sharing roles and choosing chats
+
+### Can I use one AI or several?
+
+Both are possible. One AI can take on several roles, or different AI agents and models can share the work. Souemon and the desks are roles within the workspace. You do not need a separate AI for each role.
+
+### When one AI switches roles, should I start a new chat?
+
+You can switch roles in the same chat by saying something like, “Now work as the writing desk.” As the work grows, separate chats for different roles or projects can help keep topics and their context organized.
+
+In a new chat, ask the AI to begin by reading the shared rules, its role, and the task record in the same workspace. Keep important decisions and progress in the workspace files so the next chat can pick up where you left off.
+
 ## Ask your AI to help you get started
 
 Give the following request to an AI you use on your computer:
@@ -110,6 +134,8 @@ python3 -B create_workspace.py ../practice-workspace --name "Practice studio"
 The example workspace has four roles, including a fictional Purpose Companion and a quotation desk, along with sample work, a daily report, and a circular. Keep it separate from your real workspace so fictional records don’t carry over into your work. The `--name` option changes the workspace name; it does not translate the UI or template documents.
 
 ## Open the Work Map
+
+The Work Map is a basic UI for seeing who is responsible for what and how the work is progressing. You do the day-to-day work through conversations with your AI agent and use the UI to review its status. You can change or add information and features to suit your work.
 
 Run the following from **the generated workspace folder**, then open http://127.0.0.1:8772 in your browser:
 
