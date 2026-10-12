@@ -18,11 +18,11 @@ This is the English introduction and setup guide. The [Japanese README](README.m
 
 ## A shared workspace directory that can grow with your work
 
-Think of an office with no permanent staff, but everything in place for work to continue.
+At its foundation, Dokodemo Desk is a folder organized with rules, roles, and places to keep records for your work.
 
-It holds the purpose and rules of the work, desks and roles, shelves for finished work, work logs, and messages and procedures for handing tasks over. Imagine an office where someone was working just yesterday.
+Think of an office before the staff arrive: the desks and shelves are there, and the ways of working are already laid out.
 
-Your AI reads those materials, understands the goals and progress so far, and picks up the work from there. Dokodemo Desk brings that kind of workspace together in a folder on your computer.
+You and your AI enter, read the purpose and rules, and begin working.
 
 You can start with a small personal workspace and add roles, desks, and places to keep your work as your needs grow. That is what we mean by a workspace that is free to scale.
 
