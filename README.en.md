@@ -2,6 +2,8 @@
 
 [日本語](README.md) | English
 
+> **Purpose partner trial: growing shared understanding** — Branch `codex/purpose-partner-shared-understanding`. This version adds guidance for carrying understanding gained through collaboration into later work. It is intended for a new workspace; its effects in real use have not yet been evaluated. [Start with this version](docs/shared-understanding-trial.md) (Japanese).
+
 [Website](https://dokodemodesk.monku.ai/) · [Guide](https://dokodemodesk.monku.ai/guide) · [FAQ](https://dokodemodesk.monku.ai/faq) (currently in Japanese)
 
 **A workspace that grows with you and your AI companions.**
@@ -92,7 +94,7 @@ In a new chat, ask the AI to begin by reading the shared rules, its role, and th
 
 Give the following request to an AI you use on your computer:
 
-> Get Dokodemo Desk from https://github.com/kentaroid-bot/Dokodemo-Desk, read its README, and guide me through it as Souemon. Create my workspace in a separate new folder and help me get as far as seeing the first screen.
+> Get branch `codex/purpose-partner-shared-understanding` from https://github.com/kentaroid-bot/Dokodemo-Desk, read its README, and guide me through it as Souemon. Create my workspace in a separate new folder, create a purpose partner with this version's guidance, and help me get as far as seeing the first screen.
 
 The AI should read [Souemon’s role](template/workspace/agents/roles/general-affairs.md) and the [onboarding guide](template/workspace/agents/workflows/onboarding.md). The purpose and work included in this repository’s template are fictional practice examples. Generate a blank workspace as described below, then follow its START.md, AGENTS.md, and onboarding record. Do not treat the examples as the user’s own purpose or work.
 
@@ -107,11 +109,11 @@ Souemon puts roles that support the whole workspace into role documents. Special
 With Git, run the following. You do not need to sign in to GitHub to download this public repository.
 
 ```text
-git clone https://github.com/kentaroid-bot/Dokodemo-Desk.git
+git clone --branch codex/purpose-partner-shared-understanding --single-branch https://github.com/kentaroid-bot/Dokodemo-Desk.git
 cd Dokodemo-Desk
 ```
 
-Without Git, use **Code → Download ZIP** on GitHub and extract the archive.
+Without Git, select this trial branch on GitHub, then use **Code → Download ZIP** and extract the archive.
 
 To try a particular version, check out the specified commit before starting. The downloaded folder contains the distribution template. Create your own workspace somewhere else; you can decide later whether to save it to your own GitHub repository.
 

@@ -2,6 +2,8 @@
 
 日本語 | [English](README.en.md)
 
+> **共有理解を育てる伴走役の試行版** — ブランチ `codex/purpose-partner-shared-understanding`。協働で得た理解を次の仕事へ生かす指針を追加しています。新しい仕事場で試すための版で、実利用の効果は未確認です。[この版から始める](docs/shared-understanding-trial.md)。
+
 [公式サイト](https://dokodemodesk.monku.ai/) · [ガイド](https://dokodemodesk.monku.ai/guide) · [FAQ](https://dokodemodesk.monku.ai/faq)
 
 **机の引き出しから、相棒がやってくる。**
@@ -88,7 +90,7 @@ macOSのCodexを使う既存利用者の環境で、改訂した案内による�
 
 PCで使うAIへ、リポジトリのURLとともに次のように依頼してください。
 
-> https://github.com/kentaroid-bot/Dokodemo-Desk から本体を取得してREADMEを読み、総えもんとして「どこでもデスク」を案内してください。別の新しいフォルダに私の仕事場を作り、最初の画面を見るところまで手伝ってください。
+> https://github.com/kentaroid-bot/Dokodemo-Desk のブランチ `codex/purpose-partner-shared-understanding` から本体を取得してREADMEを読み、総えもんとして「どこでもデスク」を案内してください。別の新しいフォルダに私の仕事場を作り、この版の指針を含む動機の伴走役の作成と、最初の画面を見るところまで手伝ってください。
 
 AIは[総えもんの役割](template/workspace/agents/roles/general-affairs.md)と[初回案内](template/workspace/agents/workflows/onboarding.md)を案内用として読みます。このtemplateに含む目的や仕事は架空の練習例です。本人の動機として扱わず、下の空の版を生成してから、その仕事場のSTART.md・AGENTS.md・導入記録へ進んでください。
 
@@ -103,11 +105,11 @@ AIは[総えもんの役割](template/workspace/agents/roles/general-affairs.md)
 Gitを使う場合は次を実行します。公開リポジトリの取得にGitHubへのログインは不要です。
 
 ```text
-git clone https://github.com/kentaroid-bot/Dokodemo-Desk.git
+git clone --branch codex/purpose-partner-shared-understanding --single-branch https://github.com/kentaroid-bot/Dokodemo-Desk.git
 cd Dokodemo-Desk
 ```
 
-Gitを使わない場合は、GitHubの「Code → Download ZIP」から取得して展開できます。
+Gitを使わない場合は、GitHubでこの試行ブランチを選んでから「Code → Download ZIP」で取得して展開できます。
 
 固定した版で試す場合は、指定されたコミットへ切り替えてから始めます。取得したこのフォルダは雛形の配布元です。利用者の仕事場は別の場所に作り、本人のGitHubへ保存するかは後から決められます。
 
