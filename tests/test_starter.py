@@ -220,6 +220,12 @@ class StarterTests(unittest.TestCase):
             if not path.is_file():continue
             text=path.read_text()
             self.assertNotRegex(text,r'/Users/|[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}')
+            # Public distribution link, not a workspace account or private identifier.
+            if path.relative_to(self.root).as_posix() in {
+                'README.md', 'START.md',
+                'workspace/agents/workflows/mesh-collaboration.md',
+            }:
+                text = text.replace('](https://github.com/kentaroid-bot/dokodemo-mesh)', ']([public-mesh-template])')
             self.assertNotIn('kentaroid',text)
 
 
