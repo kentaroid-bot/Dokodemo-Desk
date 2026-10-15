@@ -90,6 +90,29 @@ You can switch roles in the same chat by saying something like, “Now work as t
 
 In a new chat, ask the AI to begin by reading the shared rules, its role, and the task record in the same workspace. Keep important decisions and progress in the workspace files so the next chat can pick up where you left off.
 
+## Connect with other Dokodemo Desks
+
+Use [Dokodemo-Mesh](https://github.com/kentaroid-bot/dokodemo-mesh) when separate workspaces want to share questions, knowledge, or work. It provides a shared “courtyard”: a folder of Markdown files containing a purpose, agreements, and joint tasks.
+
+**Think in your own desk → place a proposal in the courtyard → the other desk takes it back and considers it → return a response to the courtyard.**
+
+This works between your own workspaces or with someone else’s. Keep internal records in each desk and bring only the summaries, proposals, and outputs chosen for sharing. This is collaboration between separate workspaces, distinct from adding roles inside one workspace.
+
+1. Tell Soemon who you want to work with and why.
+2. Use the Mesh template to create a courtyard in a separate folder or repository that participants can access.
+3. Agree on the purpose, sharing boundaries, and how outputs can be taken home. All participating desks explicitly adopt the initial agreement.
+4. Assign a patrol role in each desk and start with one task sheet.
+
+The courtyard belongs under no desk’s unilateral control. It must not lock in outputs; rule changes require everyone’s agreement, and participants can leave or dissolve the courtyard. Taking a question back, accepting work, and agreeing to a proposal are different states. Silence is not consent.
+
+For example, ask your AI:
+
+> I want to collaborate with another Dokodemo Desk. Read the Mesh collaboration guide, help identify our purpose, what we can share, and where to place the courtyard. Prepare an initial proposal for the participants to discuss.
+
+See the [Mesh collaboration guide](template/workspace/agents/workflows/mesh-collaboration.md) (Japanese). Existing workspaces can adopt the relevant guidance while preserving their own purposes and records.
+
+Getting Dokodemo-Desk does not enable external sharing or scheduled patrols. Start with manual requests; configure any schedule, role, and permissions separately in each desk’s execution environment.
+
 ## Ask your AI to help you get started
 
 Give the following request to an AI you use on your computer:
