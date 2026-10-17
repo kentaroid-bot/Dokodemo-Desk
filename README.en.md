@@ -2,7 +2,7 @@
 
 [日本語](README.md) | English
 
-[Website](https://dokodemodesk.monku.ai/) · [Guide](https://dokodemodesk.monku.ai/guide) · [FAQ](https://dokodemodesk.monku.ai/faq) (currently in Japanese)
+[Website](https://dokodemodesk.monku.ai/) · [Introductory slides](https://desk-mesh.monku.ai/) · [Guide](https://dokodemodesk.monku.ai/guide) · [FAQ](https://dokodemodesk.monku.ai/faq) (currently in Japanese)
 
 **A workspace that grows with you and your AI companions.**
 

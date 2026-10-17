@@ -2,7 +2,7 @@
 
 日本語 | [English](README.en.md)
 
-[公式サイト](https://dokodemodesk.monku.ai/) · [ガイド](https://dokodemodesk.monku.ai/guide) · [FAQ](https://dokodemodesk.monku.ai/faq)
+[公式サイト](https://dokodemodesk.monku.ai/) · [スライドで仕組みを見る](https://desk-mesh.monku.ai/) · [ガイド](https://dokodemodesk.monku.ai/guide) · [FAQ](https://dokodemodesk.monku.ai/faq)
 
 **机の引き出しから、相棒がやってくる。**
 
